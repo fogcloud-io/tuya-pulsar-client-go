@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/pulsar-client-go/core/srv"
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/core/srv"
-	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 func TestManagedProducer(t *testing.T) {

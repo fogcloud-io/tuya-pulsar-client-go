@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/pulsar-client-go/core/msg"
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/core/msg"
-	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 // maxRedeliverUnacknowledged is the maxiMum number of

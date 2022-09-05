@@ -1,4 +1,4 @@
-module github.com/tuya/pulsar-client-go
+module github.com/fogcloud-io/pulsar-client-go
 
 go 1.15
 

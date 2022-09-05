@@ -16,8 +16,8 @@ package srv
 import (
 	"context"
 
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 )
 
 // NewPinger returns a ready-to-use pinger.

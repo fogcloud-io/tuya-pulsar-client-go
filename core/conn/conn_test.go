@@ -24,9 +24,9 @@ import (
 	"testing/iotest"
 	"time"
 
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 // mockReadCloser wraps a io.Reader with a no-op Close method.

@@ -18,11 +18,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/pulsar-client-go/core/msg"
+	"github.com/fogcloud-io/pulsar-client-go/core/pub"
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/core/msg"
-	"github.com/tuya/pulsar-client-go/core/pub"
-	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 func TestPubsub_Subscribe_Success(t *testing.T) {

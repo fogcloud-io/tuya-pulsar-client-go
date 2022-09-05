@@ -21,10 +21,10 @@ import (
 	"os"
 	"path"
 
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
-	"github.com/tuya/pulsar-client-go/core/frame"
 )
 
 func main() {

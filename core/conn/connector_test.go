@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/pulsar-client-go/utils"
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/pkg/api"
-	"github.com/tuya/pulsar-client-go/utils"
 )
 
 func TestConnector(t *testing.T) {

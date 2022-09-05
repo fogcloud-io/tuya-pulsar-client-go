@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tuya/pulsar-client-go/utils"
+	"github.com/fogcloud-io/pulsar-client-go/utils"
 )
 
 // ClientConfig is used to configure a Pulsar client.

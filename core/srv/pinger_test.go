@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 )
 
 func TestPinger_HandlePing(t *testing.T) {

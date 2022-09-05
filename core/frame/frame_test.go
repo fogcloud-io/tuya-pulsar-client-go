@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 func TestFrameDecode_Simple(t *testing.T) {

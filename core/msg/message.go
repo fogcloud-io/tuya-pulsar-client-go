@@ -19,8 +19,8 @@ import (
 	"errors"
 	"io"
 
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 // Message represents a received MESSAGE from the Pulsar server.

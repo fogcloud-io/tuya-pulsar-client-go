@@ -22,9 +22,9 @@ import (
 	"os"
 	"sync"
 
+	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
-	"github.com/tuya/pulsar-client-go/core/frame"
-	"github.com/tuya/pulsar-client-go/pkg/api"
 )
 
 // NewServer returns a ready-to-use Pulsar test server.
