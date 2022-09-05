@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fogcloud-io/pulsar-client-go/core/frame"
-	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
-	"github.com/fogcloud-io/pulsar-client-go/pkg/log"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/log"
 )
 
 // NewTCPConn creates a core using a TCPv4 connection to the given

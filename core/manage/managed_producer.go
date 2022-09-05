@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fogcloud-io/pulsar-client-go/core/pub"
-	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
-	"github.com/fogcloud-io/pulsar-client-go/utils"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/core/pub"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/utils"
 )
 
 // ProducerConfig is used to configure a ManagedProducer.

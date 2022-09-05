@@ -16,9 +16,9 @@ package sub
 import (
 	"sync"
 
-	"github.com/fogcloud-io/pulsar-client-go/core/frame"
-	"github.com/fogcloud-io/pulsar-client-go/core/pub"
-	"github.com/fogcloud-io/pulsar-client-go/utils"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/core/pub"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/utils"
 )
 
 // NewSubscriptions returns a ready-to-use subscriptions.

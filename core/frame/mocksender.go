@@ -16,7 +16,7 @@ package frame
 import (
 	"sync"
 
-	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/api"
 )
 
 // CmdSender is an interface that is capable of sending

@@ -16,7 +16,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/api"
 )
 
 // AsyncErrors provides idiom for sending in a non-blocking

@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fogcloud-io/pulsar-client-go/core/srv"
-	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/core/srv"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/api"
 )
 
 func TestManagedClientPool(t *testing.T) {

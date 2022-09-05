@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fogcloud-io/pulsar-client-go/core/frame"
-	"github.com/fogcloud-io/pulsar-client-go/core/msg"
-	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/core/msg"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
 )
 

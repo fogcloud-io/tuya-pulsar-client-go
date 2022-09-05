@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/api"
 	"github.com/golang/protobuf/proto"
 )
 

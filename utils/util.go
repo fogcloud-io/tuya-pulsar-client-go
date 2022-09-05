@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fogcloud-io/pulsar-client-go/pkg/api"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/pkg/api"
 )
 
 // ################

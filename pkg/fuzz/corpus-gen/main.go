@@ -21,7 +21,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/fogcloud-io/pulsar-client-go/core/frame"
+	"github.com/fogcloud-io/tuya-pulsar-client-go/core/frame"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	"github.com/google/gopacket/pcap"
