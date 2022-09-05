@@ -173,3 +173,12 @@ func (m *ClientPool) Partitions(ctx context.Context, cfg ClientConfig, topic str
 	}
 	return client.Discoverer.PartitionedMetadata(ctx, topic)
 }
+
+func (m *ClientPool) Stop() {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+
+	for _, v := range m.pool {
+		v.Stop()
+	}
+}
