@@ -553,6 +553,8 @@ func (m *ManagedConsumer) Close(ctx context.Context) error {
 		if m.clientPool != nil {
 			m.clientPool.Stop()
 		}
-		return m.consumer.Close(ctx)
+		if m.consumer != nil {
+			return m.consumer.Close(ctx)
+		}
 	}
 }
